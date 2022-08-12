@@ -10,6 +10,7 @@ app.use(express.urlencoded({extended:true}))
 
 
 app.get('/', (req,res)=>{
+    res.send('Hola mundo')
     console.log("Prueba heroku")
 })
 
